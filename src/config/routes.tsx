@@ -1,10 +1,11 @@
 import {Foo} from '../views/Foo'
 import {Bar} from '../views/Bar'
 import { Welcome } from '../views/Welcome'
-import { First } from '../components/welcome/first'
-import { Second } from '../components/welcome/second'
-import { Third } from '../components/welcome/third'
+import { First } from '../components/welcome/First'
+import { Second } from '../components/welcome/Second' 
+import { Third } from '../components/welcome/Third'
 import { Fourth } from '../components/welcome/Fourth'
+
 export const routes = [
     {path:'/',component:Foo},
     {path:'/bar',component:Bar},
